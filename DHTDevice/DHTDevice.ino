@@ -10,9 +10,9 @@ void setup()
 void loop()
 {
 	DHT.read11(dht_dpin);
-	Serial.print("01:");
+	Serial.print("TEMP:");
 	Serial.println(DHT.temperature);
-	Serial.print("02:");
+	Serial.print("HUM:");
 	Serial.println(DHT.humidity);
-	delay(10000);
+	delay(1000);
 }

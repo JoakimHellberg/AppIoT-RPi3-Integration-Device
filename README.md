@@ -6,3 +6,5 @@ TEMP: 13.0
 
 HUM: 42
 
+Wiring details: https://github.com/JoakimHellberg/AppIoT-RPi3-Integration-Device/blob/master/Wiring.PNG
+

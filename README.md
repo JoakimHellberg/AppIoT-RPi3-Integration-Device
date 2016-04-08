@@ -30,9 +30,11 @@ Edit the template by clicking the name Default. Add a calculation:
 - Sensor Type: Steam density
 - Report interval: 1
 - Use the following formula in the console
+- 
 <code>
 double t = input[1];            
 double x = 4.7815706 + 0.34597292 * t + 0.0099365776 * Math.Pow(t,2) + 0.00015612096 * Math.Pow(t,3) + 1.9830825 * Math.Pow(10,-6) * Math.Pow(t,4) + 1.5773396 * Math.Pow(10,-8) * Math.Pow(t,5);
 answer = x * input[2]/100d;
 </code>
+
 Klick OK and then save the device template.

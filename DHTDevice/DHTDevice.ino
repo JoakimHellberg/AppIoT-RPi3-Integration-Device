@@ -2,7 +2,7 @@
 #define dht_dpin A0
 dht DHT;
 
-String serialNumber = "8989";
+String serialNumber = "11:11:11:11:11:11";
 
 void setup()
 {

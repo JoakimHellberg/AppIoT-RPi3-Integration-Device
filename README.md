@@ -6,9 +6,9 @@ In order to change serial number download Arduino IDE at https://www.arduino.cc/
 
 The sensor data is communicated over serial communication line by line with the following format
 
-ID:11:11:11:11:11:11;TEMP: 13.0;
+ID:11:11:11:11:11:11;TEMP:13.0;
 
-ID:11:11:11:11:11:11;HUM: 42;
+ID:11:11:11:11:11:11;HUM:42;
 
 # Wiring
 Connecting the DHT-11 sensor with the Arduino Nano is done as described below:

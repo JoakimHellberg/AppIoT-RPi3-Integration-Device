@@ -20,7 +20,7 @@ Wiring details: https://github.com/JoakimHellberg/AppIoT-RPi3-Integration-Device
 # Device Type
 Create a device type in AppIoT Settings -> Hardware Types -> Device Types -> Create
 - Name: Arduino Device
-- Type ID: 100001
+- Type ID: 10001
 - Sensor types: Temperature, Humidity
 
 # Device template
